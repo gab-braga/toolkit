@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "gabriel-toolkit",
+  "homepage": "https://github.com/gab-braga/toolkit",
+  "items": [
+    {
+      "name": "use-debounce",
+      "type": "registry:hook",
+      "title": "useDebounce",
+      "description": "Retorna um valor após um intervalo sem mudanças.",
+      "files": [
+        {
+          "path": "hooks/use-debounce.ts",
+          "type": "registry:hook"
+        }
+      ]
+    }
+  ]
+}
