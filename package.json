@@ -1,0 +1,26 @@
+{
+  "name": "gabriel-toolkit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Hooks React distribuídos pelo registry GitHub do shadcn.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "registry:validate": "shadcn registry validate ./registry.json",
+    "check": "npm run typecheck && npm run registry:validate"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.21.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "shadcn": "^4.21.1",
+    "typescript": "^5.9.0"
+  }
+}

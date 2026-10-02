@@ -14,6 +14,57 @@
           "type": "registry:hook"
         }
       ]
+    },
+    {
+      "name": "use-async",
+      "type": "registry:hook",
+      "title": "useAsync",
+      "description": "Executa opera??es ass?ncronas com estado de carregamento.",
+      "files": [
+        {
+          "path": "hooks/use-async.tsx",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-dialog",
+      "type": "registry:hook",
+      "title": "useDialog",
+      "description": "Controla abertura, estado e renderiza??o de um di?logo.",
+      "files": [
+        {
+          "path": "hooks/use-dialog.tsx",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-reveal",
+      "type": "registry:hook",
+      "title": "useReveal",
+      "description": "Anima elementos ao entrar na ?rea vis?vel.",
+      "files": [
+        {
+          "path": "hooks/use-reveal.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "use-table",
+      "type": "registry:hook",
+      "title": "useTable",
+      "description": "Tabela TanStack com filtros, ordena??o, pagina??o e exporta??o.",
+      "dependencies": [
+        "@tanstack/react-table@^8.21.3"
+      ],
+      "files": [
+        {
+          "path": "hooks/use-table.ts",
+          "type": "registry:hook"
+        }
+      ]
     }
   ]
 }
